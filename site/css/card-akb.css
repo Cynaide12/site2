@@ -1,0 +1,238 @@
+.content{
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 90px;
+  white-space: normal;
+}
+header{
+  color: white
+}
+a{
+  color: white
+}
+#content{
+  margin-top: 100px;
+}
+.format-inspector{
+  width: 100%;
+  height: fit-content;
+  display:flex;
+  justify-content: center;
+}
+.inspector{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.card-inspector-akb{
+  width: 100%;
+  height: fit-content;
+  margin-top: 50px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;  
+  align-items: flex-start;
+  position:relative;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-akb{
+  width: 20%;
+  height: 630px;
+  border: 1px solid white;
+  background: transparent;
+  transition: 1000ms;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-radius: 15px;
+  align-items:  center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  min-width: 300px; 
+  max-width: 377px;
+  min-height: 500px;
+  max-height: 630px
+
+
+}
+.card-akb:hover{
+  transition: 1000ms;
+  background: rgba(255, 255, 255, 0.507)
+}
+#img-container{
+  width: 80%;
+  margin-top: 10px;
+  height: 200px
+}
+.name-akb{
+  width: 80%;
+  text-align: left;
+}
+.button-format{
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  background: #08086e;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 100px;
+  cursor: pointer
+}
+.akb-line{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+.akb-category{
+  width: fit-content;
+  color: white;
+  margin-top: 10px;
+}
+.akb-value{
+  width: fit-content;
+  color: white;
+  margin-top: 10px;
+}
+.akb-line-inspector{
+  width: 80%;
+  height: fit-content;
+  margin-top: 10px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.akb-text-inspector{
+  width: 80%;
+  height: fit-content;
+}
+.akb-prices{
+  width: 100%;
+  height:70px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.akb-prices-value{
+  width: fit-content;
+  height: fit-content;
+  font-size: 30px;
+  color: white;
+}
+.akb-prices-text{
+  width: fit-content;
+  font-size: 15px;
+  color: white;
+  display:flex;
+  flex-wrap: wrap;
+}
+#akb-line-flex{
+  display:flex;
+  justify-content: space-around
+}
+.trash-line{
+  width: 100%;
+  height: fit-content;
+  margin-top: 10px;
+}
+.trash{
+  background: red;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+
+  margin-top: 30px;
+}
+.trash:hover{
+  background: #219653;
+  transition: 300ms
+}
+.buy-inspector{
+  width:100%;
+  height:100%;
+  position: fixed;
+  background: red;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(32, 27, 27, 0.699);
+  visibility: hidden;
+}
+.buy{
+  width: 500px;
+  background:rgb(255, 255, 255);
+  height: 500px;
+  display:flex;
+  flex-flow:column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.buy-block{
+  width: 80%;
+  height:350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+
+}
+.buy input{
+  width: 98%;
+  height: 30px;
+  border: 1px solid rgb(153, 153, 153)
+}
+.input-name{
+  width: 100%;
+  height: fit-contet;
+  margin-top: 20px;
+}
+.buy-text{
+  width: 100%;
+  height: fit-content;
+  font-size: 30px
+}
+.input-phone{
+  width: 100%;
+  height: fit-content;
+  margin-top: 20px;
+}
+.input-name textarea{
+  border: 0px;
+  resize: none;
+  border: 1px solid rgb(153, 153, 153)
+}
+.buy-button{
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid rgb(153, 153, 153);
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+}
+.buy-button button{
+  height: 45px;
+  width: 190px;
+  background: #08086e;
+  color: white;
+  margin-right: 20px;
+}
+.buy-closed{
+  align-self: flex-end;
+  margin-right: 50px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background-image: url('https://emojio.ru/images/apple-b/274c.png');
+  background-size: 100%;
+  border: 0px;
+}

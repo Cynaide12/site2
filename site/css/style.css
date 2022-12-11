@@ -1,0 +1,435 @@
+.garland-inspector{
+  width: 99%;
+  height: 20px;
+  position: relative;
+
+}
+.inspector-logo1{
+  height: 30px;
+  width: 15%;
+  font-size: 24px;
+  z-index: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.inspector-inspectorov{
+  width: 99%;
+  position: fixed;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-items: center;
+  z-index: 500;
+  margin-top: 15px;
+  background: rgba(8, 8, 110, 0.897)
+}
+.logo1{
+  border-radius: 10px;
+  width: 5%;
+  height: auto;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  z-index: 500;
+}
+#logoname{
+  width: 8%;
+  margin-left: 30px;
+}
+#logoimg{
+  height: 50px;
+  width: 70px;
+  margin-left: 20px;
+}
+.logo-text-container{
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer
+}
+body{
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  background-size: 60%;
+  /*background-image: url('https://holzmarkt.ru/dekory-egger/odnotonnye/image?view=image&format=raw&type=orig&id=214&ext=.jpg ');*/
+  background: rgb(36, 35, 23);
+}
+.text1{
+  width: 100px;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  height: auto;
+}
+
+#garland {
+  top:0;
+  left:0;
+  background-image:url('https://yraaa.ru/test/135/christmas-lights.png');
+  height:36px;
+  width:100%;
+  overflow:hidden;
+  z-index:99;
+  position: fixed
+}
+#nums_1 {padding:100px}
+.garland_1 {background-position: 0 0}
+.garland_2 {background-position: 0 -36px}
+.garland_3 {background-position: 0 -72px}
+.garland_4 {background-position: 0 -108px}
+.search-inspector{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.button-search{
+  width: 100px;
+  height: 26px;
+  background: rgb(255, 208, 0);
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  border-radius: 0px 10px 10px 0px;
+}
+.button-container{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.input-search{
+  height: 20px;
+  border-radius: 10px 0px 0px 10px
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+/*.card-inspector{
+  width: 99%;
+  height: 1200px;
+  margin-top: 50px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+}*/
+.card-inspector{
+width: 99%;
+height: 1600px;
+margin-top: 100px;
+margin-left: 0px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+position: relative;
+justify-content: space-around;
+}
+.card-accumulator{
+  /*width: 600px;
+  height: 560px;*/
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  transition: background 1000ms;
+  background: transparent;
+  margin-top: 30px;
+}
+.card-accumulator:hover{
+  transition: 1000ms;
+  background: rgba(255, 255, 255, 0.507)
+}
+menu{
+  margin-left: -40px;
+}
+.img-container{
+  width: 70%;
+  height: 50%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.text-container{
+  width: 100%;
+  border-radius: 15px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  height:fit-content;
+  font-size: 50px;
+  color: white;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  border: 1px solid black;
+  background:transparent;
+  visibility:hidden;
+  margin-top: 15px;
+}
+.span-card{
+  visibility: hidden;
+  font-size: 40px;
+  background:transparent;
+  margin-top: 100px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor:pointer;
+  width: fit-content;
+  transition: 150ms;
+  background: white;
+}
+.span-card-visible0{
+  visibility: visible;
+  font-size: 20px;
+  width: fit-content;
+  margin-top: 50px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor:pointer;
+  background: white;
+  border: 1px solid black;
+  transition: 1000ms
+}
+/*.span-format0{
+  width: auto;
+  height: auto;
+  font-size: 73px;
+  visibility: hidden;
+  margin-top: 20px;
+  transition: 150ms
+}*/
+
+/*.span-format-visible0{
+  visibility: visible;
+  transition: 1000ms;
+  margin-top: 20px;
+  font-size: 30px;
+}*/
+.footer-inspector{
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  display:flex;
+  font-size: 20px;
+  margin-left: -10px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(8, 8, 110, 0.897);
+}
+.footer-text-inspector{
+  width:50%;
+  height: 100%;
+  border: 1px soid black;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.footer-text-container{
+  width: fit-content;
+  height: fit-content;
+  font-size: 18px;
+}
+.footer-container-inspector{
+  width: fit-content;
+  height: fit-content;
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+  margin-right: 20px;
+}
+html, body{
+  height: 100%
+}
+body{
+  display: flex;
+  flex-direction: column
+}
+footer{
+  flex: 0 0 auto
+}
+.content{
+  flex: 1 0 auto;
+  color: white
+}
+aside{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 0;
+  z-index: 500;
+  right: 0;
+  width: fit-content;
+  height: fit-content;
+}
+.support{
+  border: 1px solid red;
+  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  cursor:pointer;
+  background-image: url('https://png.pngtree.com/png-vector/20190228/ourlarge/pngtree-vector-message-icon-png-image_710169.jpg');
+  background-size: 100%;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.support:hover{
+  transition: 500ms;
+  box-shadow: 0px 0px 10px 10px #ffffff93;
+}
+.support-text-box{
+  width: 336px;
+  height: 419px;
+  border: 1px solid black;
+  background: white;
+  visibility:hidden;
+  border-radius: 15px 0px 0px 0px;
+  color: black;
+  margin-bottom: -100px;
+  margin-right:  -60px;
+  position: absolute;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+#support-text-box-anim{
+  margin-bottom: 30px;
+  margin-right: 20px;
+  transition: 500ms
+}
+.support-header{
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start
+}
+.support-img{
+  width: 20%;
+  height: 80%;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+.support-header-text{
+  width: fit-content;
+  height: fit-content;
+  margin-left: 10px;
+}
+.closed{
+  align-self: flex-start;
+  margin-left: 56px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background-image: url('https://emojio.ru/images/apple-b/274c.png');
+  background-size: 100%;
+  border: 0px;
+  margin-top: 3px
+}
+.support-dialog-box{
+  width: 100%;
+  height: 60%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.support-dialog-box textarea{
+  outline: none;
+  border: 0px;
+  resize: none;
+  font-size: 18px;
+  color: black
+}
+.support-input{
+  width: 100%;
+  border: 1px solid black;
+  height: 40px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+
+}
+.support-input textarea{
+  resize: none;
+  border: 0px;
+  outline: none
+}
+.input-button{
+  background: green;
+  border-radius: 50%;
+  width: 34px;
+  height:34px;
+  margin-right: 25px;
+  border: 0px;
+  align-self:center;
+  cursor: pointer
+}
+.input-button:hover{
+  box-shadow:rgba(0, 0, 0, 0.25) 0px 20px 40px 8px
+}
+.support-input2{
+  width: fit-content;
+  margin-bottom: 30px
+}
+.support-input2 textarea{
+  background: transparent;
+  resize: none;
+  border-left: 0px;
+  color: black;
+  font-size: 18px;
+}
+.support-input3{
+  margin-bottom: 30px;
+  width: fit-content;
+  visibility: hidden;
+  position: absolute;
+}
+.support-input3 textarea{
+  text-align: right;
+  outline: none;
+  background: transparent;
+}
+.support-input-otvet{
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  position: absolute;
+  visibility: hidden;
+}
+.support-input-otvet textarea{
+  outline: none;
+  outline: none;
+  background: transparent
+}
+#hidden{
+  visibility: hidden;
+}
+a{
+  text-decoration:none;
+  color: black;
+}

@@ -1,0 +1,11 @@
+//карточки с аккумуляторами
+let cardAccumulator = document.querySelectorAll('.card-accumulator')
+for(let card of cardAccumulator){
+card.addEventListener('mouseover', function(){
+  let span = card.querySelector('.span-card')
+  span.classList = 'span-card-visible0'
+})
+card.addEventListener('mouseout', function(){
+  let span = card.querySelector('.span-card-visible0')
+  span.classList = 'span-card'
+})}
